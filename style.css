@@ -1,0 +1,90 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: border-box;
+}
+
+p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.811);
+}
+
+.contenedor{
+    background-color: whitesmoke;
+    margin: 100px auto;
+    max-width: 300px;
+}
+
+.tabla-de-nutricion{
+    padding: 1rem;
+}
+
+.tabla-de-nutricion h1{
+    border-bottom: 0.1rem solid gray;
+}
+
+.serving-size{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1rem solid black;
+    font-weight: bold;
+}
+
+.calories{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5rem solid black;
+}
+
+.calories p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.daily-value{
+    text-align: right;
+    border-bottom: 0.1rem solid gray;
+}
+
+.izq-der{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid gray;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.margin-left-1rem{
+    margin-left: 1rem;
+}
+
+.margin-left-1-5rem{
+    margin-left: 1.5rem;
+}
+
+.protein{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1rem solid black;
+}
+
+.izq-der-last{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5rem solid black;
+}
+
+.last-part p{
+    font-size: 10px;
+    text-align: justify;
+}
+
